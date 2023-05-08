@@ -1,5 +1,5 @@
 ﻿# ISI-B.Math-Sem -IV
-Here you can get access to all the course provided to B.Math Second Year Students on the year 2023. In general, five courses are offered in each semester. The courses offered this semester are listed below. Corresponding Midsem and Semestral exams can be found in the [official webpageof ISI](https://www.isibang.ac.in/~adean/infsys/database).
+Here you can get access to all the course provided to B.Math Second Year Students on the year 2023. In general, five courses are offered in each semester. The courses offered this semester are listed below. Question paper of corresponding subjects of Midsem and Semestral exams can be found in the [official webpageof ISI](https://www.isibang.ac.in/~adean/infsys/database).
 
 ### Electrodynamics ###
   * This Course was instructed by [Dr. Prabuddha Chakraborty](https://www.isibang.ac.in/~adean/infsys/database/Bmath/Ele.html/ "Dr. Prabuddha Chakraborty"). The text books, required refferences and assignments along with their solutions (some solution are provided rest solution are not provided because their submission were in offline mode) are provided in this [link](https://github.com/Trishan8/ISI-B.Math-Sem--III/tree/main/Electrodynamics).
