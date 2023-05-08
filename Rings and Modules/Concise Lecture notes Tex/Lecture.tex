@@ -1,0 +1,98 @@
+\documentclass[lec]{subfiles}
+
+\begin{document}
+\chapter*{Lectures} %Set chapter name
+\addcontentsline{toc}{chapter}{Lecture} %Set chapter title
+\setcounter{chapter}{1} %Set chapter counter
+
+%The content
+
+\begin{center}
+  \large $\bullet$ I tried to latex all lecture notes and to make a concise notes, but due to time constraint it's remains undone.
+\end{center}
+
+\section{Lecture-1}
+
+\begin{itemize}
+    \item Examples of rings ; $X$ is a \textbf{finite} set with powerset $\mathcal{P}(X)$ with $A+B = A \Delta B$, $A.B = A \cap B$ and $A^{-1} = A$. This ring has unity $X$. X is infinite then, $R = \qty{ \text{all set of finite number of elements}}$ is also a ring but with no unity.
+    \item $C_c((0,1], \R))$ is the ring of all continuous function from $(0,1]$ to $\R$ with compact support.
+    \item $R$ is a finite ring then $\exists m\neq n$ such that $a^{m} = a^{n}$ for all $ a \in R$. \[ P_k : x \mapsto x^k \] We can vary $k$ to get different functions. since $R$ is finite $R^R$ has finite cardinality. There is some $m \neq n$ such that $P_m = P_n$.
+    \item A ring might not have unity but a subring can have unity. Example- $\qty{\begin{pmatrix} a & 0 \\ b & 0 \end{pmatrix} | a,b \in {R}}$ has unity $\begin{pmatrix} 1 & 0 \\ 1 & 0 \end{pmatrix}$.
+    \item Defination of \textbf{Charecterestic of a Ring , Integral Domain, Field, Zero divisors}.
+    \item $\Z_n$ is domain \href{https://math.stackexchange.com/questions/3327213/a-proof-that-mathbbz-p-is-an-integral-domain-if-and-only-if-p-is-prime}{iff} $n$ is prime.
+    \item $R$ finite integral domain then $R$ is field. (Look ar $a \neq 0$ in $R$ then $\qty{ar_1, \cdots, ar_k}$ is $R$ so $ar_i = 1$ for some unique $r_i$.)
+    \item $M_n(R)$ has zero divisors for any commutative ring $R$.
+    \item Defination of \textbf{nilpotent element, Polynomial ring}.
+    \item Let, $k = \prod p_i^{\alpha_i}$. In $\Z_k$, $s$ is a nilpotent element \href{https://math.stackexchange.com/questions/1222586/if-n-p-1a-1-cdots-p-ra-r-the-set-of-nilpotents-of-mathbbz-n-is}{$\Leftrightarrow$} $p_i \mid s$ forall $i \in \qty{1,\cdots,r}$.
+    \item For a ring $R$ , the set of units are defined as $R^*$. $M_n(\Z)$ be the ring $M_n(\Z)^* = \qty{A :  \exists B; AB = BA = I}$. Which is precisely $\qty{\det(A) = \pm 1}$.
+    \item \textcolor{red}{Reference} \textit{From Numbers to Rings: The Early History of Ring Theory} - \href{https://ems.press/content/serial-article-files/699}{\color{magenta}Israel Kleiner}.
+\end{itemize}
+
+\section{Lecture-2}
+
+\begin{itemize}
+    \item $G$ be a finite group and $R$ be nay commutative ring with unity. Then \textbf{Group Ring} is the set of all function from $G$ to $R$.\[ R[G] = \qty{\varphi: G \to R}\] Here addition is $ (\varphi + \psi)(g) = \varphi(g) + \psi(g)$. And multiplication $*$ is defined as, \[(\varphi * \psi)(g) = \sum_{xy = g } \varphi(x) \psi(y)\] $R[G]$ is commutative iff $G$ is abelian. If $R$ is a field then $R[G]$ is an \textbf{R-Algebra}. For infinite we can define $R[G]$ as $\qty{\varphi : G \to R \hspace{0.2cm} \text{with } |\text{Supp}(\varphi)| < \infty }$. 
+    \item (\textbf{Dorroh Extension}) Any ring without unity can be embedded in a ring with unity. Look at $R \times \Z$. $(r,m) \cdot (s,n) = (ms+nr+rs , mn)$ with unity $(0,1)$.
+    \item $\bar{\Z} = \qty{\alpha \in \C : \alpha \hspace{0.2cm} \text{satisfy a monic Polynomial in } \Z [x]}$ is \textbf{Algebraic integral Ring}. Let, $\alpha , \beta \in \bar{\Z}$ then $\alpha^n \in \sum_{i=0}^{n-1} \Z \alpha^i, \beta^n \in \sum_{i=0}^{m-1} \Z \beta^{i}$. We will show that $\alpha\beta \in \bar{\Z}$. Now define $A = \sum \Z \alpha^i \beta ^j$ here sum is over $0\le i \le n$ and $0 \le j \le m$. Let, $A = \sum_{i=1}^d \Z a_i$. Now we will show that $ A \subseteq \bar{\Z}$. if $a \in A$ then, \begin{align*}
+        aa_1 = m_{11}a_1 + \cdots + m_{1d}a_d \\
+      \Rightarrow  (a-m_{11}) + (-m_{12})a_2 + \cdots + (-m_{1d}) a_d &= 0 \\
+      \text{Similarly, }(-m_{21})a_1 + (a-m_{22})a_2 +\cdots + (-m_{2d})a_d &= 0 \\
+      \vdots  \\
+      (-m_{d1})a_1 +(-m_{2d}) + \cdots +(a-m_{dd})a_d &=0 \\
+      \Rightarrow \underbrace{\begin{pmatrix}
+        a-m_{11}  & \cdots & -m_{1d} \\
+        \vdots & \ddots & \vdots \\
+        -m_{d1} & \cdots & a - m_{dd}   
+      \end{pmatrix}}_{M} \begin{pmatrix}
+        a_1 \\ \vdots \\ a_d 
+      \end{pmatrix} &= 0 \\
+    \end{align*}
+ Now, $\text{adj}M (M) \vec{a} = 0$ which gives $\det(M)I \vec{a} = 0$. Now $1 \in \qty{a_1, \cdots, a_d}$ so, $\det(M) = 0$
+ \item $A =\sum_{i=1}^d \Z a_i$ is known as \textbf{Cayley - Hamilton Ring}.
+ \item 
+\end{itemize}
+
+
+\section{Lecture-3}
+
+\begin{itemize}
+  \item Defination of \textbf{Ideals}.Right Ideals, Left Ideals, Both sided Ideals.
+  \item $I = \qty{\begin{pmatrix} a& 0 \\ b & 0 \end{pmatrix}}$ is Left-Ideal which is not Right Ideal.
+  \item $R$ be a commutative Ring with 1. Then the Ideals of $M_n(R)$ are precisely $M_n(I)$ where $I \triangleleft R$. For any $J \triangleleft M_n(R)$; we have $(E_{ij}TE_{kl})_{il} = T_{jk}$. Here $T \in M_n(R)$. \href{https://math.stackexchange.com/questions/362559/show-that-every-ideal-of-the-matrix-ring-m-nr-is-of-the-form-m-ni-where}{(See rest)}
+  \item Defination of \textbf{Simple Ring}
+  \item Fields have only Ideal $\qty{0}$. $M_n(K)$ is example of simple Ring for a field $K$.
+  \item Defination of \textbf{Maximal Ideal}.
+  \item Let $R$ be a ring with  unity. Let $ I \subset R$ be proper Ideal , then $I \subseteq m \subset R$ where $m$ is a maximal Ideal.
+  \item Defination of \textbf{Unit,Irreducible element, Prime elements}.
+  \item Ideals equivalent to to an Ideal generated by single element are called \textbf{Principal ideal}.
+  \item For a field $K$ all Ideals of $K[x]$ are Principal Ideals. $R = K[x]$ has Ideals of form $(f)$ where $f \in R$. (One Property is used here \href{https://proofwiki.org/wiki/Polynomial_Forms_over_Field_is_Euclidean_Domain}{Polynomial ring over a field is a euclidean domain})
+  \item \href{https://math.stackexchange.com/questions/36169/show-that-langle-2-x-rangle-is-not-a-principal-ideal-in-mathbb-z-x}{$I = (x,2)$ is not principal ideal in $\Z[x]$}.
+  \item Maximal Ideals of $K[x]$ are $(f)$ where, $f$ is Irreducible.
+  \item If $f$ is an unit of $k[x]$ then all the coefficient of $f$ is nilpotent except the constant term. constant term is unit. So, $f$ has degree $0$ as $K$ is field. So, $K[x]^* = K^*$.
+  \item All Ideals of $\C[x]$ are principal. Irreducible Polynomial of it has degree $1$.
+  \item $R$ integral domian with $1 \in R$ is a \textbf{Principal Ideal Domain (P.I.D)} iff $R$ is field. 
+  \item $\C[x,y] = (\C[x])[y]$ is not P.I.D.
+  \item (\href{https://en.wikipedia.org/wiki/Hilbert%27s_Nullstellensatz}{Hilbert Nullstellensatz}) Maximal Ideals of $\C[X,Y]$ are of form $(X-a,Y-b)$ where $a,b \in \C$.
+  \item (\href{https://en.wikipedia.org/wiki/Gaussian_integer}{Gaussian integers}) $\Z[i] = \qty{a + ib | a,b \in \Z}$. $(5) = 5R \subset (2+i)$ and $(2) = 2R = (1+i)(1+i)$.
+\end{itemize}
+
+\subsection*{$\mathbf{\S}$ References}
+\textit{[1] Lectures on Rings and Modules} - \href{https://libgen.li/ads.php?md5=17220737b487487bbc3e2e6ce9991a61}{\color{magenta}{Joachim Lambek}}. $\hfill $
+
+\textit{[2] Transcendence of $\alpha^{\beta}$} - \href{https://fse.studenttheses.ub.rug.nl/18517/1/bMATH_2018_deJagerRJ.pdf}{\color{magenta}The Gelfond-Schneider theorem}. $\hfill$
+
+\textit{[3] Liouville's Constant and Liouville Number} - \href{https://www.youtube.com/watch?v=1sqywCt9tEs}{\color{magenta}Transcendence of $\sum_{i = 1}^{\infty} \frac{1}{10^{-n!}}$ }.
+
+\section{Lecture-4}
+
+\begin{itemize}
+  \item $I$ is a left Ideal of $R$ ,$I =R$ $\Leftrightarrow$ there is $x \in R$ such that it has a left inverse.
+  \item If $(x) = R$ then $x$ might not have any left or right inverse. E.g. $R = M_2(\R)$ and $x = E_{11}$ then $(x) = \left( E_{11}+E_{21}E_{11}E_{12} \right) = R$.
+  \item $\ann(x) = \qty{r \in R | rx = 0}$ (Left Annhilator)
+  \item If $I$ is Left Ideal then left $\ann(I)$ is two sided Ideal.
+  \item Introduced Ring Homomorphism for commutative Rings. 
+  \item $R$ be any ring in which $I$ is two sided Ideal then $R/I$ is a ring with multiplication $(a+I)(b+I) = ab +I$.
+  \item Isomorphism theorem's for Rings. 
+\end{itemize}
+
+\end{document} 
