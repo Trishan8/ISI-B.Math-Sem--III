@@ -21,4 +21,4 @@ Here you can get access to all the course provided to B.Math Second Year Student
 
   * This course was mainly for point set topology but oure professor covered some interesting topics like Topological groups, Classification of surfaces. For these the text refences were, <em> A Basic course in algebraic topology </em> by [W.S.Massey](https://link.springer.com/book/10.1007/978-1-4939-9063-4) and <em> Basic Topology </em> by [Armstrong](https://libgen.rs/book/index.php?md5=8B995F78BB1E7FA0B53CA57F21FD5003).
  
- * This [Homework](https://github.com/Trishan8/ISI-B.Math-Sem-IV/blob/main/Topology/Topo-homework-2(Printed).pdf) is very special. While solving these problems we came across p-adic topology and compact-open topology.
+  * This [Homework](https://github.com/Trishan8/ISI-B.Math-Sem-IV/blob/main/Topology/Topo-homework-2(Printed).pdf) is very special. While solving these problems we came across p-adic topology and compact-open topology.
