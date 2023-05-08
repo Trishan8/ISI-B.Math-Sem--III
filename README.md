@@ -25,3 +25,20 @@ This course was instructed by [Prof. CRE Raja](https://www.isibang.ac.in/~creraj
   * This course was mainly for point set topology but oure professor covered some interesting topics like Topological groups, Classification of surfaces. For these the text refences were, <em> A Basic course in algebraic topology </em> by [W.S.Massey](https://link.springer.com/book/10.1007/978-1-4939-9063-4) and <em> Basic Topology </em> by [Armstrong](https://libgen.rs/book/index.php?md5=8B995F78BB1E7FA0B53CA57F21FD5003).
  
   * This [Homework](https://github.com/Trishan8/ISI-B.Math-Sem-IV/blob/main/Topology/Topo-homework-2(Printed).pdf) is very special. While solving these problems we came across p-adic topology and compact-open topology.
+  
+  # How to Use?
+
+1. Install git
+  - Windows: https://git-scm.com/download/win or `winget install git.git` (If you have [App installer](https://www.microsoft.com/en-us/p/app-installer/9nblggh4nns1) installed)
+  - MacOS (comes pre-installed): `brew install git`
+2. Clone the repo
+
+```bash
+git clone https://github.com/Trishan8/Topology-WRP-2022
+```
+3. Update the repo later
+```bash
+git pull
+```
+
+* You can always [download the whole repo as a zip](https://github.com/Trishan8/ISI-B.Math-Sem-IV/archive/refs/heads/master.zip)
