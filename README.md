@@ -6,7 +6,7 @@ Here you can get access to all the course provided to B.Math Second Year Student
 
 
 ### Rings and Modules ###  
-  * This course was instructed by [Prof. B.Sury](https://www.isibang.ac.in/~sury/). During this course we mostly followed [Introduction to Rings and Modules - C.Musili](https://libgen.rs/book/index.php?md5=FFF8CA8E2C8ADF55A09FF626B255E4BC) and Abstract algebra by [Dummit and Foote](https://dokumen.tips/documents/dummit-and-foote-abstract-algebra-third-edition.html). We got very nice assignments during the course. Find all the assignmnets and their solution in this [link](https://github.com/Trishan8/ISI-B.Math-Sem--III/blob/main/Rings%20and%20Modules)
+  * This course was instructed by [Prof. B.Sury](https://www.isibang.ac.in/~sury/). During this course we mostly followed [Introduction to Rings and Modules - C.Musili](https://libgen.rs/book/index.php?md5=FFF8CA8E2C8ADF55A09FF626B255E4BC) and <em> Abstract algebra </em> by [Dummit and Foote](https://dokumen.tips/documents/dummit-and-foote-abstract-algebra-third-edition.html). We got very nice assignments during the course. Find all the assignmnets and their solution in this [link](https://github.com/Trishan8/ISI-B.Math-Sem--III/blob/main/Rings%20and%20Modules)
   
     * During the course we got many references from the professor and they are written [here](https://github.com/Trishan8/ISI-B.Math-Sem--III/blob/main/Rings%20and%20Modules/Concise%20Lecture%20Notes%20(Incomplete).pdf). This note is incomplete. If anyone is interested to finsh it up, please contact me.
 
@@ -16,9 +16,9 @@ Here you can get access to all the course provided to B.Math Second Year Student
 
 ### Topology ###
 
-* This course was instructed by [Prof. Maneesh Thakur](https://isi.irins.org/profile/122628). During the course we mostly followed Introduction to topology and modern analysis by [G.F.Simmons](https://www.academia.edu/41477596/_Simmons_Introduction_to_Topology_and_Modern_Analysis) and Topology by [J.Munkres](http://mathcenter.spb.ru/nikaan/2019/topology/4.pdf). All the assignments in this course and their solution can be found [here](https://github.com/Trishan8/ISI-B.Math-Sem-IV/tree/main/Topology). 
+* This course was instructed by [Prof. Maneesh Thakur](https://isi.irins.org/profile/122628). During the course we mostly followed <em> Introduction to topology and modern analysis </em> by [G.F.Simmons](https://www.academia.edu/41477596/_Simmons_Introduction_to_Topology_and_Modern_Analysis) and <em> Topology </em> by [J.Munkres](http://mathcenter.spb.ru/nikaan/2019/topology/4.pdf). All the assignments in this course and their solution can be found [here](https://github.com/Trishan8/ISI-B.Math-Sem-IV/tree/main/Topology). 
 
 
-  * This course was mainly for point set topology but oure professor covered some interesting topics like Topological groups, Classification of surfaces. For these the text refences were, <em> A Basic course in algebraic topology </em> by [W.S.Massey](https://link.springer.com/book/10.1007/978-1-4939-9063-4) and <em> Basic Topology by [Armstrong](https://libgen.rs/book/index.php?md5=8B995F78BB1E7FA0B53CA57F21FD5003).
+  * This course was mainly for point set topology but oure professor covered some interesting topics like Topological groups, Classification of surfaces. For these the text refences were, <em> A Basic course in algebraic topology </em> by [W.S.Massey](https://link.springer.com/book/10.1007/978-1-4939-9063-4) and <em> Basic Topology </em> by [Armstrong](https://libgen.rs/book/index.php?md5=8B995F78BB1E7FA0B53CA57F21FD5003).
  
  * This [Homework](https://github.com/Trishan8/ISI-B.Math-Sem-IV/blob/main/Topology/Topo-homework-2(Printed).pdf) is very special. While solving these problems we came across p-adic topology and compact-open topology.
