@@ -12,4 +12,4 @@ Here you can get access to all the course provided to B.Math Second Year Student
 
 
 ### Introduction to Linear Models and Regression ##
- * This course was instructed by [prof. Mohan Delampady](https://www.isibang.ac.in/~mohan/). The refferences and professor's note can be found in this [link](https://github.com/Trishan8/ISI-B.Math-Sem-IV/tree/main/Statistics)
+ * This course was instructed by [prof. Mohan Delampady](https://www.isibang.ac.in/~mohan/). The refferences and professor's note can be found in this [link](https://github.com/Trishan8/ISI-B.Math-Sem-IV/tree/main/Introduction%20to%20Linear%20Models%20and%20Regression)
