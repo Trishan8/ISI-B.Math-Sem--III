@@ -34,7 +34,7 @@ This course was instructed by [Prof. CRE Raja](https://www.isibang.ac.in/~creraj
 2. Clone the repo
 
 ```bash
-git clone https://github.com/Trishan8/Topology-WRP-2022
+git clone https://github.com/Trishan8/ISI-B.Math-Sem-IV
 ```
 3. Update the repo later
 ```bash
